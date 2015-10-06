@@ -14,6 +14,7 @@
 		1C46C3BA1BC296B100C6B703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C46C3B81BC296B100C6B703 /* LaunchScreen.storyboard */; };
 		1C46C3C51BC296B100C6B703 /* RoshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46C3C41BC296B100C6B703 /* RoshamboTests.swift */; };
 		1C46C3D01BC296B100C6B703 /* RoshamboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C46C3CF1BC296B100C6B703 /* RoshamboUITests.swift */; };
+		1C9249B91BC29AB100C424CF /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9249B81BC29AB100C424CF /* ResultViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1C46C3CB1BC296B100C6B703 /* RoshamboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshamboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C46C3CF1BC296B100C6B703 /* RoshamboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboUITests.swift; sourceTree = "<group>"; };
 		1C46C3D11BC296B100C6B703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C9249B81BC29AB100C424CF /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1C46C3AF1BC296B100C6B703 /* AppDelegate.swift */,
 				1C46C3B11BC296B100C6B703 /* ViewController.swift */,
+				1C9249B81BC29AB100C424CF /* ResultViewController.swift */,
 				1C46C3B31BC296B100C6B703 /* Main.storyboard */,
 				1C46C3B61BC296B100C6B703 /* Assets.xcassets */,
 				1C46C3B81BC296B100C6B703 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			files = (
 				1C46C3B21BC296B100C6B703 /* ViewController.swift in Sources */,
 				1C46C3B01BC296B100C6B703 /* AppDelegate.swift in Sources */,
+				1C9249B91BC29AB100C424CF /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +485,7 @@
 				1C46C3D61BC296B100C6B703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C46C3D71BC296B100C6B703 /* Build configuration list for PBXNativeTarget "RoshamboTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +494,7 @@
 				1C46C3D91BC296B100C6B703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1C46C3DA1BC296B100C6B703 /* Build configuration list for PBXNativeTarget "RoshamboUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +503,7 @@
 				1C46C3DC1BC296B100C6B703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
